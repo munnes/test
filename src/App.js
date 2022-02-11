@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-
+import ReactWhatsapp from 'react-whatsapp';
 function App() {
   return (
     <div className="App">
@@ -15,8 +15,9 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn React 971506864013
         </a>
+        <ReactWhatsapp number="971-50-686-4013" message="Hello World!!!" />
       </header>
     </div>
   );
